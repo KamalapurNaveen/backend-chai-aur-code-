@@ -2,14 +2,21 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "Backend project from chai aur code",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "nodejs",
     "mongodb"
   ],
   "author": "Naveen Kamalapur",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "env": "^0.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
